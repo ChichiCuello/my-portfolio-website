@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/app/styles.css">
+    <title>My Portfolio</title>
+    <script src="/app/js/script.js" defer></script>
+</head>
+
+<body>
+    <section class="main">
+
+        <header class="header">
+            <div class="light-dark-mode">
+                <i class="fas fa-moon change-theme" id="theme-button">
+                </i>
+            </div>
+            <div class="hamburguer-menu"><i class="fas fa-folder-open"></i>
+                <!---->
+            </div>
+
+        </header>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="#">SOBRE MI</a>
+                </li>
+                <li>
+                    <a href="#">SKILLS</a>
+                </li>
+                <li>
+                    <a href="#">PROYECTOS</a>
+                </li>
+                <li>
+                    <a href="#">CONTACTO</a>
+                </li>
+            </ul>
+        </div>
+        <div class="description">
+
+            <h1 id="nombre">Maria Agustina Cuello</h1>
+            <div class="txt-description">
+                Desarrolladora Full Stack Python y una amante de los idiomas.
+            </div>
+    </section>
+    <section class="about">
+        <h2>SOBRE MI</h2>
+        <div class="txt-about">
+            Soy de Cordoba Argentina, actualmente estudio Farmacia y estoy aprendiendo mi quinto idioma
+            <div class="banderas">&#x1F1FA;&#x1F1F2; &#x1F1EE;&#x1F1F9; &#x1F1F0;&#x1F1F7; &#x1F1E8;&#x1F1F3;
+            </div>
+        </div>
+
+    </section>
+    <section class="skills">
+        <h2>SKILLS</h2>
+        <div class="txt-skills">
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Python</li>
+            </ul>
+        </div>
+    </section>
+    <section class="proyectos">
+        <h2>PROYECTOS</h2>
+        <div class="projects">
+            <div class="project">PROXIMAMENTE</div>
+            <div class="project">PROXIMAMENTE</div>
+            <div class="project">PROXIMAMENTE</div>
+        </div>
+
+    </section>
+    <section class="contact-me">
+        <h2>CONTACTATE</h2>
+        <form action="mailto:ma.agustina.cuello@gmail.com" method="POST" enctype=”multipart/form-data” name=”EmailForm”>
+            Nombre: <input type="text" name="nombre" id="nombre">
+            <br> Email:
+            <input type="email" name="email" id="email">
+            <br> Mensaje:
+            <br>
+            <textarea rows="6" cols="60" name="mensaje" id="mensaje"></textarea> <br>
+            <input type="submit" value="Enviar" id="sumit">
+        </form>
+        <ul>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fab fa-github"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        </ul>
+    </section>
+    <footer>
+        <p class="footer">Mi portfolio</p>
+        <div class="btn"></div>
+    </footer>
+    <button onclick="topFunction()" class="arrow-up" id="arrow-up"><i class="fas fa-arrow-up"></i></button>
+</body>
+
+</html>
